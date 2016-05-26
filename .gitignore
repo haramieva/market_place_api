@@ -21,3 +21,6 @@ doc/
 *.swp
 *~
 .DS_Store
+
+# User-specific stuff:
+.idea/
