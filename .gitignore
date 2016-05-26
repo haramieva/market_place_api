@@ -23,4 +23,4 @@ doc/
 .DS_Store
 
 # User-specific stuff:
-.idea/
+.idea/*
