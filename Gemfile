@@ -28,6 +28,13 @@ end
 gem 'active_model_serializers'
 gem "devise"
 
+# Sabisu gems
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -40,6 +47,7 @@ gem "devise"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails', '~> 3.4'
 end
 
 group :development do
@@ -52,9 +60,8 @@ group :development do
 end
 
 group :test do
-  gem "rspec-rails"
   gem "factory_girl_rails"
   gem 'ffaker'
-  gem "shoulda-matchers"
+  gem 'shoulda-matchers', '~> 3.1', require: false
 end
 
