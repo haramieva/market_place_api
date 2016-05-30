@@ -21,8 +21,6 @@ RSpec.configure do |config|
   require 'factory_girl_rails'
   require 'shoulda/matchers'
   config.include FactoryGirl::Syntax::Methods
-  #Including to test requests
-  config.include Request::JsonHelpers, :type => :controller
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
