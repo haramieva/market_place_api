@@ -64,4 +64,5 @@ RSpec.describe Order, type: :model do
       expect(@order).to_not be_valid
     end
   end
+
 end

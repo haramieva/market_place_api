@@ -1,5 +1,4 @@
-class OrderMailer < ApplicationMailer
-
+class OrderMailer < ActionMailer::Base
   default from: "no-reply@marketplace.com"
 
   def send_confirmation(order)
