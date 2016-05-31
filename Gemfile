@@ -63,5 +63,6 @@ end
 group :test do
   gem 'rspec-rails', '~> 3.4'
   gem 'shoulda-matchers', '~> 3.1', require: false
+  gem "email_spec"
 end
 
